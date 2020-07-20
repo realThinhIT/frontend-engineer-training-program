@@ -1,0 +1,43 @@
+.pointer {
+  cursor: pointer;
+}
+
+
+.ant {
+  &-modal-wrap {
+    z-index: 10000 !important;
+  }
+
+  &-form {
+    &-explain {
+      font-size: 14px;
+    }
+  }
+
+  &-modal {
+    &-title {
+      font-size: 22px;
+      margin-top: 5px;
+    }
+  }
+
+  &-timeline {
+    margin-top: 0px;
+    margin-bottom: -10px;
+
+    .ant-timeline-item-last {
+      margin-bottom: 0px !important;
+      padding-bottom: 0px !important;
+      
+      .ant-timeline-item-content {
+        min-height: auto;
+      }
+    }
+  }
+}
+
+.log-in-form, .sign-up-form, .item-form {
+  .ant-form-item-label {
+    text-align: left;
+  }
+}

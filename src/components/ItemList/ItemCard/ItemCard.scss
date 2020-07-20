@@ -1,0 +1,7 @@
+.item-card {
+  .delete-action {
+    &:hover {
+      color: red;
+    }
+  }
+}

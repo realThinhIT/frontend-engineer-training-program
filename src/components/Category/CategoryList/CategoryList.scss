@@ -1,0 +1,14 @@
+.category-list {
+  min-height: calc(85vh);
+
+  .category-menu {
+    border-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .category-list {
+    min-height: auto !important;
+    margin-bottom: 40px;
+  }
+}
