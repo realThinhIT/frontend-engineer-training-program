@@ -8,7 +8,7 @@
     ```
     $ mkdir ~/gotit-catalog-frontend
     $ cd ~/gotit-catalog-frontend
-    $ git clone https://github.com/realThinhIT/gotit-catalog-frontend.git .
+    $ git clone https://github.com/realThinhIT/frontend-engineer-training-program .
     ```
 
 3. Install project dependencies:
